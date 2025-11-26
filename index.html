@@ -2,129 +2,32 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SavePoint_BR • Notícias Gamer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #0A1A3A; /* azul escuro do fundo */
-            color: #fff;
-        }
-
-        header {
-            background: #0A1A3A;
-            padding: 20px;
-            text-align: center;
-        }
-        header .logo {
-            width: 110px;
-            margin-bottom: 10px;
-        }
-        header h1 {
-            color: #4bb8ff; /* azul claro da logo */
-            margin: 10px 0 0 0;
-            font-size: 2.2rem;
-        }
-        header p {
-            color: #ff7b21; /* laranja da logo */
-            font-size: 1.1rem;
-            margin-top: 5px;
-        }
-
-        nav {
-            background: #10224d;
-            padding: 12px;
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-        }
-        nav a {
-            color: #4bb8ff;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1rem;
-        }
-        nav a:hover {
-            color: #ff7b21;
-        }
-
-        .container {
-            width: 95%;
-            max-width: 1000px;
-            margin: auto;
-            padding: 20px 0 60px 0;
-        }
-
-        .section-title {
-            color: #ff7b21;
-            font-size: 1.8rem;
-            margin-top: 30px;
-        }
-
-        .card {
-            background: #11254d;
-            padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 25px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-        }
-        .card img {
-            width: 100%;
-            border-radius: 6px;
-            margin-bottom: 12px;
-        }
-        .card h3 {
-            color: #4bb8ff;
-            margin-top: 0;
-        }
-        .card p {
-            color: #dce7ff;
-        }
-
-        .btn {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 14px;
-            background: #ff7b21;
-            color: #fff;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .btn:hover {
-            background: #ff8f40;
-        }
-
-        footer {
-            background: #0A1A3A;
-            color: #4bb8ff;
-            text-align: center;
-            padding: 25px;
-            margin-top: 40px;
-            border-top: 2px solid #ff7b21;
-        }
-    </style>
+    <title>SavePoint_BR - Seu Checkpoint Diário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-    <img src="logo.png" alt="SavePoint_BR" class="logo">
+    <img src="logo.png" class="logo">
     <h1>SavePoint_BR</h1>
-    <p>Seu Checkpoint Diário no Mundo Gamer</p>
+    <p class="slogan">Seu Checkpoint Diário no Mundo Gamer</p>
 </header>
 
 <nav>
-    <a href="#noticias">Notícias</a>
-    <a href="#lancamentos">Lançamentos</a>
-    <a href="#reviews">Reviews</a>
+    <a href="index.html">Início</a>
+    <a href="noticias.html">Notícias</a>
+    <a href="lancamentos.html">Lançamentos</a>
+    <a href="reviews.html">Reviews</a>
 </nav>
 
-<div class="container">
+<section class="container">
+    <h2>📰 Notícias Recentes</h2>
 
-    <h2 id="noticias" class="section-title">📰 Notícias Recentes</h2>
+    <a class="card" href="noticias.html">
+        <h3>Novo exclusivo do PS5 surpreende em primeiro trailer</h3>
+        <p>Clique para ler mais…</p>
+    </a>
+</section>
 
-    <div class="card">
-        <img src="https://via.placeholder.com/900x400" alt="">
-        <h3>Novo exclusivo do PS5 surpreende em primeiro trailer<
+</body>
+</html>
